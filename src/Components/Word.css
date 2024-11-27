@@ -1,0 +1,427 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Body{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainBody{
+    width: 50vw;
+    height: 80vh;
+    background: url('../assets/yellow2.avif');
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main1{
+    width: 70%;
+    height: 80%;
+    /* background-color: rgb(4, 36, 25); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Text{
+    width: 90%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Text1{
+    width: 85%;
+    height: 70%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(116, 116, 6);
+    border: 2px solid rgb(167, 167, 8);
+    box-shadow: 0 0 60px rgb(129k, 129, 3);
+}
+h1{
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+.Test{
+    width: 90%;
+    height: 30%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Test1{
+    width: 85%;
+    height: 70%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(116, 116, 6);
+    border: 2px solid rgb(167, 167, 8);
+    box-shadow: 0 0 60px rgb(129, 129, 3);
+}
+h2{
+    font-size: 47px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+
+.Box{
+    width: 90%;
+    height: 30%;
+    /* background-color: rgb(17, 33, 128); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Box1{
+    width: 98%;
+    height: 90%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    gap: 10px;
+    flex-direction:row;
+}
+.box{
+    width: 22%;
+    height: 70%;
+    background-color: aqua;
+    border: 2px solid rgb(2, 36, 36);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box1{
+    width: 22%;
+    height: 70%;
+    background-color: aqua;
+    border: 2px solid rgb(2, 36, 36);
+    border-radius: 5px;
+}
+.box2{
+    width: 22%;
+    height: 70%;
+    background-color: aqua;
+    border: 2px solid rgb(2, 36, 36);
+    border-radius: 5px;
+}
+.box3{
+    width: 22%;
+    height: 70%;
+    background-color: aqua;
+    border: 2px solid rgb(2, 36, 36);
+    border-radius: 5px;
+}
+
+.Btn{
+    width: 50%;
+    height: 11%;
+/* background-color: black; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Btn1{
+    width: 60%;
+    height: 90%;
+    /* background-color: rgb(241, 152, 35); */
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(241, 203, 35);
+    color: white;
+    font-weight: 600;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    width: 70%;
+    height: 80%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page1{
+    width: 70%;
+    height: 20%;
+    /* background-color: rgb(77, 77, 44); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(240, 240, 76);
+    border: 3px solid rgb(161, 161, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.select{
+    width: 40%;
+    height: 20%;
+     /* background-color: aqua; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.select1{
+    width: 95%;
+    height: 60%;
+    /* background-color: rgb(233, 236, 13); */
+    /* border: 3px solid rgb(65, 65, 2); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select2{
+    width: 80%;
+    height: 70%;
+    background-color: rgb(233, 236, 13);
+    border: 4px solid rgb(143, 143, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.foot{
+    width: 50%;
+    height: 65%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 70%;
+    height: 90%;
+    background-color: black;
+    border: 4px solid rgb(143, 143, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+     width: 60%;
+     height: 70%;
+     /* background-color: black; */
+     display: flex;
+     flex-direction: column;
+     gap: 20px
+}
+
+
+.Guesswordbody{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Guessbody2{
+    width: 80%;
+    height: 90%;
+    background:url(src/assets/qp.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap:10px; */
+    /* padding: 10px; */
+}
+.allboxes{
+    width: 100%;
+    height: 30vh;
+    /* background: #e71717; */
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.boxcontainer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    /* background: #000; */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.box8{
+    width: 60px;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow:  0   0 4px inset green;
+}
+.Alpahold{
+    width: 100%;
+    height: 50vh;
+   
+    gap: none; 
+    /* background: red; */
+    align-items: center;
+    display: flex;
+    justify-content:end;
+    gap: 0px;
+    flex-direction: column;
+}
+.alphabet{
+    width: 90%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: -10px;
+}
+.alphabet2{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: -10px;
+    gap: 10px;
+}
+.alphabet3{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -10px;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+.alphabox{
+   width: 50px;
+   height: 20px;
+   background: #000;
+ color: white;
+ /* gap: 0px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.alphabet4{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.live{
+    width: 60%;
+    height: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.live1{
+    width: 70%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.live2{
+    width: 20%;
+    height: 70%;
+    /* background-color: blueviolet; */
+}
+.live3{
+    width: 20%;
+    height: 70%;
+    /* background-color: blueviolet; */
+}
+.heart{
+    font-size: 50px;
+    color:rgb(253, 61, 3);
+}
+.live4{
+    width: 20%;
+    height: 70%;
+    /* background-color: blueviolet; */
+}
+.live5{
+    width: 20%;
+    height: 70%;
+    /* background-color: blueviolet; */
+}
+
+.Sucess{
+    width: 100%;
+    height: 100vh;
+    background: url(src/assets/sucess.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(24, 1, 1);
+}
+h5{
+    font-size: 70px;
+    font-weight: 700;
+}
+.Fail{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
